@@ -352,8 +352,7 @@ else if (typeof define === 'function' && define['amd'])
                         "ResponseMessage": "Success"
                     }
                 };
-                console.log(res);
-
+                
                 cv.imshow('cropImg', crop_img);
                 cv.imshow("warpPerspec", warp_persp);
                 cv.imshow('output', roi_img);
@@ -364,7 +363,7 @@ else if (typeof define === 'function' && define['amd'])
                 warp_persp.delete();
                 roi_img.delete();
 
-                // window.ReactNativeWebView.postMessage(JSON.stringify(res));
+                window.ReactNativeWebView.postMessage(JSON.stringify(res));
             } catch (err) {
                 const res = {
                     type: "windowMeasure",
@@ -377,8 +376,7 @@ else if (typeof define === 'function' && define['amd'])
                     },
                     error: JSON.stringify(err)
                 };
-                console.log(res);
-                // window.ReactNativeWebView.postMessage(JSON.stringify(res));
+                window.ReactNativeWebView.postMessage(JSON.stringify(res));
             }
         }
 
