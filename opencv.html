@@ -340,6 +340,8 @@ else if (typeof define === 'function' && define['amd'])
 
                 const [height, width] = warp_persp.matSize;
 
+                cv.imshow("warpPerspec", warp_persp);
+
                 // Get Base64 Of Cropped Image
                 const canvaElem = document.querySelector("#warpPerspec");
                 const b64Data = getBase64(canvaElem);
@@ -354,8 +356,6 @@ else if (typeof define === 'function' && define['amd'])
                         "ResponseMessage": "Success"
                     }
                 };
-                
-                cv.imshow("warpPerspec", warp_persp);
                 
                 // cv.imshow('cropImg', crop_img);
                 // cv.imshow('output', roi_img);
