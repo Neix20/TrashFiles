@@ -322,23 +322,21 @@ else if (typeof define === 'function' && define['amd'])
                 const { top_left, top_right, bottom_left, bottom_right } = pt_coor;
                 const warp_persp = warp_perspective(ori_img, top_left, top_right, bottom_left, bottom_right);
 
-                // // Crop Bottom Left Corner
-                // const { crop_img, offset_ht, offset_wt } = crop_bottom_left_corner(warp_persp);
+                // Crop Bottom Left Corner
+                const { crop_img, offset_ht, offset_wt } = crop_bottom_left_corner(warp_persp);
 
-                // // CV Pipeline
-                // const { contours, hier } = cv_pipeline(crop_img);
+                // CV Pipeline
+                const { contours, hier } = cv_pipeline(crop_img);
 
-                // // Get Region of Interest from Largest Contour
-                // const max_area_cnt = get_largest_contour(contours, border_ratio);
-                // const roi_img = get_region_of_interest(max_area_cnt, offset_ht, warp_persp);
+                // Get Region of Interest from Largest Contour
+                const max_area_cnt = get_largest_contour(contours, border_ratio);
+                const roi_img = get_region_of_interest(max_area_cnt, offset_ht, warp_persp);
 
-                // const [roi_ht, roi_wt] = roi_img.matSize;
-                // const [ori_ht, ori_wt] = warp_persp.matSize;
+                const [roi_ht, roi_wt] = roi_img.matSize;
+                const [ori_ht, ori_wt] = warp_persp.matSize;
 
-                // // Calculate Window Width & Height
-                // const [width, height, log_obj] = wm_calculate_width_height(roi_wt, roi_ht, ori_wt, ori_ht)
-
-                const [height, width] = warp_persp.matSize;
+                // Calculate Window Width & Height
+                const [width, height, log_obj] = wm_calculate_width_height(roi_wt, roi_ht, ori_wt, ori_ht)
 
                 cv.imshow("warpPerspec", warp_persp);
 
@@ -363,8 +361,8 @@ else if (typeof define === 'function' && define['amd'])
                 ori_img.delete();
                 warp_persp.delete();
 
-                // crop_img.delete();
-                // roi_img.delete();
+                crop_img.delete();
+                roi_img.delete();
 
                 window.ReactNativeWebView.postMessage(JSON.stringify(res));
             } catch (err) {
