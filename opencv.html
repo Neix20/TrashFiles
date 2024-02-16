@@ -355,15 +355,16 @@ else if (typeof define === 'function' && define['amd'])
                     }
                 };
                 
-                cv.imshow('cropImg', crop_img);
                 cv.imshow("warpPerspec", warp_persp);
-                cv.imshow('output', roi_img);
+                
+                // cv.imshow('cropImg', crop_img);
+                // cv.imshow('output', roi_img);
 
                 ori_img.delete();
-
-                crop_img.delete();
                 warp_persp.delete();
-                roi_img.delete();
+
+                // crop_img.delete();
+                // roi_img.delete();
 
                 window.ReactNativeWebView.postMessage(JSON.stringify(res));
             } catch (err) {
