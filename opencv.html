@@ -190,6 +190,16 @@ else if (typeof define === 'function' && define['amd'])
 
             return [resWt, resHt, logObj];
         }
+
+        function check_region_of_interest(roi_img) {
+            let flag = true
+            const [ht, wt] = roi_img.matSize;   
+
+            // flag = flag && (ht > 50 && wt > 50);
+            flag = flag && (ht > wt);
+
+            return flag;
+        }
     </script>
     <script type="text/javascript">
         function eucli_dist(pt_a, pt_b) {
@@ -331,6 +341,12 @@ else if (typeof define === 'function' && define['amd'])
                 // Get Region of Interest from Largest Contour
                 const max_area_cnt = get_largest_contour(contours, border_ratio);
                 const roi_img = get_region_of_interest(max_area_cnt, offset_ht, warp_persp);
+
+                const roi_flag = check_region_of_interest(roi_img);
+
+                if (!roi_flag) {
+                    throw "Invalid Region Of Interest!";
+                }
 
                 const [roi_ht, roi_wt] = roi_img.matSize;
                 const [ori_ht, ori_wt] = warp_persp.matSize;
