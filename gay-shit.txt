@@ -1,0 +1,64 @@
+POLICYSETDEFINITIONDISPLAYNAME	POLICYDEFINITIONGROUPNAME	POLICYDEFINITIONDISPLAYNAME	SUBSCRIPTIONNAME	RESOURCENAME	Project name
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	sagoeasufirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	sagoeasufirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	sagoeasufirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	sagoeasufirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	sagoeasfirestormredis	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	sagoeasfirestormredis	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02easdfirestormts158	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	rggo02easdfirestormts158	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02easdfirestormts158	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	f8059629a7f7911ea9c0c0a	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	f8059629a7f7911ea9c0c0a	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	f8059629a7f7911ea9c0c0a	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	f8059629a7f7911ea9c0c0a	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	network	Ensure that HTTP(S) access from Internet is evaluated & restricted (Custom)	GO02	nsg-go02-p-firestormsrv01-wb01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02easpfirestormel106	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	rggo02easpfirestormel106	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	rggo02easpfirestormel106	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02easpfirestormel106	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage blobs & containers should have soft delete enabled (Custom)	GO02	rggo02easpfirestormel106	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02easnfirestormvcsr0	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02easnfirestormvcsr0	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02easpfirestormvcsr0	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02easpfirestormvcsr0	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	sago02easnfirestormmgt01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	sago02easnfirestormmgt01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	sago02easnfirestormmgt01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	sagoeaspfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	sagoeaspfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	sagoeaspfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	sagoeaspfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02easdfirestormts02d	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	rggo02easdfirestormts02d	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02easdfirestormts02d	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02easdfirestormts501	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	rggo02easdfirestormts501	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02easdfirestormts501	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02easdfirestormts01d	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	rggo02easdfirestormts01d	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02easdfirestormts01d	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage blobs & containers should have soft delete enabled (Custom)	GO02	sago02easpfstormagw01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	sagoeassfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	sagoeassfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	sagoeassfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	sagoeassfirestormdbaudit	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	f26aa46e77f8d11eab00646	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	f26aa46e77f8d11eab00646	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	f26aa46e77f8d11eab00646	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	f26aa46e77f8d11eab00646	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	sago02easpfstormagw03	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	f35ba363678ad11eabbb086	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	f35ba363678ad11eabbb086	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	f35ba363678ad11eabbb086	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	f35ba363678ad11eabbb086	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	sago02searfirestormmgt01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	sago02searfirestormmgt01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	sago02searfirestormmgt01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	sago02searfirestormmgt01	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	h1fs64rsvgo02sasrcache	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use Firewall, Service Endpoint or Private Endpoint (Custom)	GO02	h1fs64rsvgo02sasrcache	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	h1fs64rsvgo02sasrcache	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should have the specified minimum TLS version	GO02	rggo02searfirestormvcsr0	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should not have blob anonymous access enabled (Custom)	GO02	rggo02searfirestormvcsr0	Firestrom
+GCI - CIS Microsoft Azure Foundations Benchmark v2.0.0	storage	Storage accounts should use customer-managed key for encryption (Custom)	GO02	rggo02searfirestormvcsr0	Firestrom
