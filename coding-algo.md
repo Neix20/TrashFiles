@@ -1,9 +1,33 @@
 
 # Commonly Used Algorithms
 
+## Two Pointers
+
 ## Binary Search
 
-### Greedy Algorithm
+```python
+def binary_search(arr, target):
+
+    start = 0
+    end = len(arr) - 1
+
+    while start <= end:
+        mid = (end + start) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] > target:
+            start += 1
+        else:
+            end -= 1
+
+    return -1
+```
+
+## Greedy Algorithm
+
+```python
+
+```
 
 ## Sliding Window
 
@@ -35,6 +59,26 @@ def max_sum_subarray(arr, k):
 ### Level Order Traversal
 
 ```python
+def level_order_traversal(node):
+
+    if node is None:
+        return
+
+    queue = [root]
+
+    while queue:
+        node = queue.pop()
+
+        if node.left:
+            queue.append(node.left)
+
+        if node.right:
+            queue.append(node.right)
+```
+
+### Queue Based
+
+```python
 def bfs(graph, start):
     # List to keep track of visited nodes
     visited = []
@@ -60,9 +104,43 @@ def bfs(graph, start):
 
 ### Pre Order Traversal
 
+```python
+def pre_order(node):
+    if node == None:
+        return
+
+    print(node.data)
+
+    pre_order(node.left)
+    pre_order(node.right)
+```
+
 ### Pos Order Traversal
 
+```python
+def pos_order(node):
+    if node == None:
+        return
+
+    pos_order(node.left)
+    pos_order(node.right)
+
+    print(node.data)
+```
+
 ### InOrder Traversal
+
+```python
+def in_order(node):
+    if node == None:
+        return
+
+    in_order(node.left)
+    print(node.data)
+    in_order(node.right)
+```
+
+### Stack Baesd
 
 ```python
 def dfs(graph, start):
@@ -99,5 +177,4 @@ def permute(a, l, r):
             a[l], a[i] = a[i], a[l]  # backtrack 
 ```
 
-## Divide-And-Conquer
-
+[Back To Homepage](./../readme.md)
